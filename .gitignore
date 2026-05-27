@@ -15,3 +15,8 @@
 # Sistema operacional
 .DS_Store
 Thumbs.db
+
+# Pastas ignoradas do repositório
+.cursor/
+.github/
+scripts/
