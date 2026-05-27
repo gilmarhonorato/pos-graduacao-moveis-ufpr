@@ -1,0 +1,17 @@
+# Ignorar arquivos do Android em qualquer subpasta
+**/.gradle/
+**/build/
+**/.kotlin/
+**/.idea/
+**/capture/
+**/output.json
+
+# Arquivos locais e de configuração
+**/*.iml
+**/*.iws
+**/*.ipr
+**/local.properties
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
