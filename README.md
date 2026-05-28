@@ -1,29 +1,28 @@
-# pos-graduacao-moveis-ufpr
+# 📱 Pós-Graduação em Dispositivos Móveis - UTFPR
 
-Repositório público para registrar a trajetória da **Pós-Graduação em Dispositivos Móveis (UTFPR/UFPR)**.
+Repositório público criado para registrar a trajetória, os códigos e a evolução ao longo da Pós-Graduação em Dispositivos Móveis (UTFPR)
 
-Cada disciplina vira uma pasta no monorepo. Dentro dela ficam **várias aplicações Android** (aulas e exercícios), cada uma como projeto Gradle independente.
+## 🎯 Sobre o Projeto
 
-## Sobre o projeto
+- **Objetivo:** Documentar estudos, práticas e evolução ao longo da pós-graduação.
+- **Formato:** Monorepo Git estruturado para abrigar múltiplos apps e exercícios agrupados por matéria.
+- **Visibilidade:** Repositório público visando o compartilhamento de aprendizado e arquitetura com a comunidade de desenvolvedores.
+- **Metodologia:** A universidade fornece gravações das aulas, que são utilizadas para revisão e aplicação prática neste repositório. Cada disciplina se torna uma pasta raiz no monorepo. Dentro dela, residem várias aplicações Android (aulas e exercícios), cada uma configurada como um projeto Gradle independente.
 
-- **Objetivo:** documentar estudos, práticas e evolução ao longo da pós.
-- **Formato:** monorepo Git com múltiplos apps e exercícios por matéria.
-- **Visibilidade:** repositório público para compartilhar o trabalho em aprendizado com a comunidade.
+## 📚 Disciplinas
 
-A universidade grava as aulas; uso as gravações para revisar e aplicar na prática neste repositório.
+Tabela atualizada conforme o avanço dos módulos na pós-graduação. Novas matérias seguem o padrão de nomenclatura `kebab-case` na raiz, subdivididas em `/aulas` e `/exercicios`.
 
-## Disciplinas
 
-Atualize esta tabela sempre que entrar uma nova matéria na pós.
+| Diretório           | Disciplina       | Professor | Status         |
+| ------------------- | ---------------- | --------- | -------------- |
+| `android-basico/`   | Android Básico   | Robison   | Em andamento ⏳ |
+| `android-aplicado/` | Android Aplicado | —         | Planejada 🔜   |
 
-| Pasta | Disciplina | Professor | Status |
-|-------|------------|-----------|--------|
-| [`android-basico/`](android-basico/) | Android Básico | Robison | Em andamento |
-| [`android-aplicado/`](android-aplicado/) | Android Aplicado | — | Planejada |
 
-Novas matérias seguem o mesmo padrão: pasta em `kebab-case` na raiz + `aulas/` + exercícios numerados.
+## 🏗️ Estrutura do Monorepo
 
-## Estrutura do monorepo
+O repositório é organizado para facilitar a navegação entre diferentes contextos e aplicativos completos. Cada pasta de aula ou exercício pode conter um app Android completo (`app/`, `gradle/`, etc.).
 
 ```text
 pos-graduacao-moveis-ufpr/
@@ -45,70 +44,26 @@ pos-graduacao-moveis-ufpr/
 ├── .cursor/
 ├── .gitignore
 └── README.md
+
 ```
 
-Cada pasta de aula ou exercício pode conter um app Android completo (`app/`, `gradle/`, etc.).
+## ⚙️ Convenções e Configurações
 
-## Convenções
+- **Nomenclatura:** Uso estrito de `kebab-case` para pastas (`android-basico`, `aula-01-introducao`).
+- **Ordenação:** Numeração de pastas com zero à esquerda (`aula-01`, `exercicio-02`) para manter a linha do tempo cronológica.
+- **Documentação:** Cada módulo possui seu próprio `README.md` detalhando as atividades.
+- `**.gitignore` global:** Configurado na raiz para ignorar artefatos de compilação do Android (`.gradle/`, `build/`, `.idea/`, `local.properties`) em todas as subpastas simultaneamente.
+- `**.cursor/`:** Contexto e regras de inteligência artificial para apoio nas atividades de aprendizado com o editor Cursor.
 
-- Pastas em **kebab-case** (`android-basico`, `aula-01-introducao`).
-- Numeração com zero à esquerda (`aula-01`, `exercicio-02`).
-- Documentação sempre em **`README.md`**.
+## 🔄 Fluxo de Trabalho (Git Flow)
 
-## Configuração do repositório
+Toda nova aula ou exercício segue um ciclo rigoroso de integração para manter o rastreamento e o histórico limpo:
 
-- **`.gitignore`** na raiz: ignora artefatos Android (`.gradle/`, `build/`, `.idea/`, `local.properties`, etc.) em qualquer subpasta.
-- **`.cursor/`**: contexto e regras para apoio nas atividades de aprendizado com o Cursor.
+1. **Criar Issue:** Mapeia a tarefa a ser realizada (ex: `gh issue create --title "[android-basico] aula-03-navegacao" --body "Implementar aula e exercícios relacionados"`).
+2. **Criar Branch:** O desenvolvimento ocorre em ambiente isolado utilizando o ID da issue (ex: `git checkout -b "feat/123-android-basico-aula-03-navegacao"`).
+3. **Commit Semântico:** Códigos salvos com referência direta à tarefa (ex: `git commit -m "feat(android-basico): concluir aula-03 (#123)"`).
+4. **Pull Request (Merge):** Envio da branch (`git push -u origin HEAD`) e merge via PR, deletando a branch de origem após a conclusão para manter a organização.
 
-## Fluxo de trabalho (issue → branch → PR)
+## 📄 Licença
 
-Toda aula ou exercício novo segue o mesmo ciclo para manter rastreabilidade.
-
-1. **Criar issue**
-   ```bash
-   gh issue create --title "[android-basico] aula-03-navegacao" --body "Implementar aula e exercícios relacionados"
-   ```
-
-2. **Criar branch** (use o número da issue)
-   ```bash
-   git checkout -b "feat/123-android-basico-aula-03-navegacao"
-   ```
-
-3. **Desenvolver, commitar e referenciar a issue**
-   ```bash
-   git add .
-   git commit -m "feat(android-basico): concluir aula-03 (#123)"
-   ```
-
-4. **Abrir Pull Request e mergear** (fecha a branch após o merge)
-   ```bash
-   git push -u origin HEAD
-   gh pr create --fill
-   gh pr merge --squash --delete-branch
-   ```
-
-   Alternativas de merge:
-   ```bash
-   gh pr merge --merge --delete-branch
-   gh pr merge --rebase --delete-branch
-   ```
-
-5. **Próxima entrega:** nova issue + nova branch
-
-Padrões sugeridos:
-
-- Branch: `feat/<issue-id>-<disciplina>-<aula-ou-exercicio>`
-- Commit: `feat(<disciplina>): descrição (#<issue-id>)`
-
-Templates em [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) e [`.github/pull_request_template.md`](.github/pull_request_template.md).
-
-## Como adicionar uma nova disciplina
-
-1. Criar pasta na raiz: `nome-da-disciplina/`
-2. Criar `nome-da-disciplina/README.md` e `nome-da-disciplina/aulas/`
-3. Atualizar a tabela **Disciplinas** neste arquivo
-4. Abrir issue + branch para a primeira aula ou exercício
-
-## Licença
-
-Ver [LICENSE](LICENSE).
+Este projeto está sob a licença estabelecida no arquivo `LICENSE`.
