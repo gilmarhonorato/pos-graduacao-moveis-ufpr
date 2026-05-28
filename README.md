@@ -57,12 +57,12 @@ pos-graduacao-moveis-ufpr/
 
 ## 🔄 Fluxo de Trabalho (Git Flow)
 
-Toda nova aula ou exercício segue um ciclo rigoroso de integração para manter o rastreamento e o histórico limpo:
+Toda nova aula, exercício ou ajuste segue um ciclo rigoroso de integração para manter o rastreamento e o histórico limpo:
 
-1. **Criar Issue:** Mapeia a tarefa a ser realizada (ex: `gh issue create --title "[android-basico] aula-03-navegacao" --body "Implementar aula e exercícios relacionados"`).
-2. **Criar Branch:** O desenvolvimento ocorre em ambiente isolado utilizando o ID da issue (ex: `git checkout -b "feat/123-android-basico-aula-03-navegacao"`).
-3. **Commit Semântico:** Códigos salvos com referência direta à tarefa (ex: `git commit -m "feat(android-basico): concluir aula-03 (#123)"`).
-4. **Pull Request (Merge):** Envio da branch (`git push -u origin HEAD`) e merge via PR, deletando a branch de origem após a conclusão para manter a organização.
+1. **Criar Issue:** Mapeia a tarefa a ser realizada (ex: criação da tarefa `#2` para atualizar a documentação principal).
+2. **Criar Branch:** O desenvolvimento ocorre em ambiente isolado utilizando o ID da issue (ex: `git checkout -b 2-atualizacao-readme-da-raiz-do-projeto`).
+3. **Commit Semântico:** Códigos salvos com referência direta à tarefa utilizando a palavra-chave para fechamento automático da issue (ex: `git commit -m "docs: atualiza documentacao do readme principal (Closes #2)"`).
+4. **Merge e Limpeza:** Envio da branch para o servidor (`git push -u origin 2-atualizacao-readme-da-raiz-do-projeto`), realização do merge na branch `main` e exclusão da branch temporária para manter a organização do repositório.
 
 ## 📄 Licença
 
