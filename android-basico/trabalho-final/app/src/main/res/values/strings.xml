@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Truco Scorer</string>
+    <string name="player1_label">Player 1: </string>
+    <string name="player2_label">Player 2: </string>
+    <string name="initial_score">0</string>
+    <string name="add_1">+1</string>
+    <string name="add_3">+3</string>
+    <string name="add_6">+6</string>
+    <string name="add_9">+9</string>
+    <string name="add_12">+12</string>
+    <string name="btn_history">Match History</string>
+    <string name="btn_reset">Clear History</string>
+    <string name="btn_names">Player Names</string>
+    <string name="win_title">Match Over</string>
+    <string name="win_message">%1$s won the match!</string>
+    <string name="ok">OK</string>
+    <string name="history_title">Match History</string>
+    <string name="edit_names_title">Edit Names</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="reset_toast">Scores and history reset!</string>
+    <string name="hint_player1">Player 1 Name</string>
+    <string name="hint_player2">Player 2 Name</string>
+</resources>

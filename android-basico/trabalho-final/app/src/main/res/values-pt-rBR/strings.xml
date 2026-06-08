@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Truco</string>
+    <string name="player1_label">Jogador 1: </string>
+    <string name="player2_label">Jogador 2: </string>
+    <string name="initial_score">0</string>
+    <string name="add_1">+1</string>
+    <string name="add_3">+3</string>
+    <string name="add_6">+6</string>
+    <string name="add_9">+9</string>
+    <string name="add_12">+12</string>
+    <string name="btn_history">Hist. de Jogadas</string>
+    <string name="btn_reset">Zerar Histórico</string>
+    <string name="btn_names">Inf. Nomes</string>
+    <string name="win_title">Fim de Partida</string>
+    <string name="win_message">%1$s ganhou a partida!</string>
+    <string name="ok">OK</string>
+    <string name="history_title">Histórico de Jogadas</string>
+    <string name="edit_names_title">Informar Nomes</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="reset_toast">Pontuação e histórico zerados!</string>
+    <string name="hint_player1">Nome do Jogador 1</string>
+    <string name="hint_player2">Nome do Jogador 2</string>
+</resources>
