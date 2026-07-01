@@ -1,0 +1,5 @@
+Regra para commits:
+- Nunca adicionar "Co-authored-by" na mensagem de commit.
+- Usar apenas autor e e-mail já definidos no git local.
+- Nunca alterar `git config` de usuário automaticamente.
+- Em caso de dúvida, pedir confirmação antes do commit.

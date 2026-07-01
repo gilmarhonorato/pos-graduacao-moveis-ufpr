@@ -1,0 +1,26 @@
+# FluxoCaixa
+
+App Android de controle financeiro (Kotlin, MVC, SQLite).
+
+## Estrutura
+
+- `model/` — `Lancamento`, `TipoLancamento` (RECEITA/DESPESA)
+- `database/` — `LancamentoDbHelper` (SQLite), `LancamentoRepositorio` (CRUD + saldo)
+- `adapter/` — `LancamentoAdapter` (RecyclerView)
+- `util/` — `FormatadorMoeda`
+- `MainActivity` — tela de lançamento (porta de entrada)
+- `ExtratoActivity` — lista de lançamentos com saldo
+
+## Banco SQLite
+
+Tabela `lancamentos`: id, valor, descricao, data_lancamento, tipo
+
+## Identidade visual (Lemain Labs)
+
+Paleta oficial do tema [lemain-theme](https://github.com/safradev/lemain-theme):
+- Accent: `#FF7A1A` | Soft: `#FF9D45` | Dark bg: `#0B0D10`
+- Light surface: `#F6F8FA` | Light text: `#24292F`
+- Ícone: blocos modulares laranja sobre fundo `#0B0D10`
+
+
+MainActivity → ExtratoActivity via botão "Ver Lançamentos"
