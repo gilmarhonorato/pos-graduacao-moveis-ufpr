@@ -18,5 +18,7 @@ Thumbs.db
 
 # Pastas ignoradas do repositório
 .cursor/
+.cursorrules
+**/.cursorrules
 .github/
 scripts/

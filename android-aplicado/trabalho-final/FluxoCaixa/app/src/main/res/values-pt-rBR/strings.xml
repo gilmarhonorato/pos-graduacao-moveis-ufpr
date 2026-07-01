@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FluxoCaixa</string>
+    <string name="titulo_lancamento">Novo Lançamento</string>
+    <string name="titulo_extrato">Extrato</string>
+    <string name="label_tipo">Tipo:</string>
+    <string name="label_valor">Valor:</string>
+    <string name="label_descricao">Descrição:</string>
+    <string name="label_data">Data Lanc.:</string>
+    <string name="opcao_receita">Receita (Crédito)</string>
+    <string name="opcao_despesa">Despesa (Débito)</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="botao_ver_lancamentos">Ver Lançamentos</string>
+    <string name="hint_valor">R$ 0,00</string>
+    <string name="hint_descricao">Ex: Aluguel, Salário</string>
+    <string name="hint_data">dd/mm/aaaa</string>
+    <string name="label_saldo">Saldo:</string>
+    <string name="lista_vazia">Nenhum lançamento registrado.</string>
+    <string name="erro_valor_invalido">Informe um valor maior que zero.</string>
+    <string name="erro_descricao_vazia">Informe uma descrição.</string>
+    <string name="erro_data_vazia">Selecione a data do lançamento.</string>
+    <string name="mensagem_salvo">Lançamento salvo com sucesso!</string>
+    <string name="erro_salvar">Não foi possível salvar o lançamento.</string>
+    <string name="tipo_receita">Receita</string>
+    <string name="tipo_despesa">Despesa</string>
+</resources>

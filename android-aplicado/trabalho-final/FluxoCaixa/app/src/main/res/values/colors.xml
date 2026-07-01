@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lemain_accent">#FFFF7A1A</color>
+    <color name="lemain_accent_dark">#FFE85F00</color>
+    <color name="lemain_accent_soft">#FFFF9D45</color>
+    <color name="lemain_accent_container">#FFFFE2C7</color>
+
+    <color name="lemain_background">#FFFFFFFF</color>
+    <color name="lemain_surface">#FFF6F8FA</color>
+    <color name="lemain_surface_elevated">#FFFFFFFF</color>
+    <color name="lemain_border">#FFD0D7DE</color>
+    <color name="lemain_text">#FF24292F</color>
+    <color name="lemain_text_soft">#FF57606A</color>
+
+    <color name="fundo_saldo">#FFFFF6EF</color>
+    <color name="verde_receita">#FF1F7A3F</color>
+    <color name="vermelho_despesa">#FFCF222E</color>
+</resources>

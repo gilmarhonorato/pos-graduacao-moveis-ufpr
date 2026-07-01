@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lemain_background">#FF0B0D10</color>
+    <color name="lemain_surface">#FF101317</color>
+    <color name="lemain_surface_elevated">#FF14181E</color>
+    <color name="lemain_border">#FF242A32</color>
+    <color name="lemain_text">#FFDCE3EA</color>
+    <color name="lemain_text_soft">#FF9AA4AF</color>
+    <color name="lemain_accent_container">#FF34404D</color>
+    <color name="fundo_saldo">#FF14181E</color>
+    <color name="verde_receita">#FF3DDC84</color>
+    <color name="vermelho_despesa">#FFFF6B6B</color>
+</resources>

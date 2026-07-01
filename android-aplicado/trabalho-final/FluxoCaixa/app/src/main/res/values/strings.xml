@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CashFlow</string>
+    <string name="titulo_lancamento">New Entry</string>
+    <string name="titulo_extrato">Statement</string>
+    <string name="label_tipo">Type:</string>
+    <string name="label_valor">Amount:</string>
+    <string name="label_descricao">Description:</string>
+    <string name="label_data">Entry Date:</string>
+    <string name="opcao_receita">Income (Credit)</string>
+    <string name="opcao_despesa">Expense (Debit)</string>
+    <string name="botao_salvar">Save</string>
+    <string name="botao_ver_lancamentos">View Entries</string>
+    <string name="hint_valor">R$ 0.00</string>
+    <string name="hint_descricao">e.g. Rent, Salary</string>
+    <string name="hint_data">dd/mm/yyyy</string>
+    <string name="label_saldo">Balance:</string>
+    <string name="lista_vazia">No entries recorded.</string>
+    <string name="erro_valor_invalido">Enter an amount greater than zero.</string>
+    <string name="erro_descricao_vazia">Enter a description.</string>
+    <string name="erro_data_vazia">Select the entry date.</string>
+    <string name="mensagem_salvo">Entry saved successfully!</string>
+    <string name="erro_salvar">Could not save the entry.</string>
+    <string name="tipo_receita">Income</string>
+    <string name="tipo_despesa">Expense</string>
+</resources>
