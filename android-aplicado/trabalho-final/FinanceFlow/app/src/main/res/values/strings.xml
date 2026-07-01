@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FinanceFlow</string>
+
+    <string name="titulo_lancamento">Novo lançamento</string>
+    <string name="titulo_edicao">Editar lançamento</string>
+    <string name="rotulo_codigo">Código</string>
+    <string name="rotulo_valor">Valor (R$)</string>
+    <string name="rotulo_descricao">Descrição</string>
+    <string name="dica_descricao">Ex: Aluguel, Salário</string>
+    <string name="rotulo_data">Data</string>
+    <string name="rotulo_tipo">Tipo de movimentação</string>
+    <string name="opcao_receita">Receita</string>
+    <string name="opcao_despesa">Despesa</string>
+    <string name="acao_salvar">Salvar lançamento</string>
+    <string name="acao_excluir">Excluir</string>
+    <string name="acao_ver_extrato">Ver extrato</string>
+
+    <string name="erro_valor">Informe um valor maior que zero</string>
+    <string name="erro_descricao">Informe uma descrição</string>
+    <string name="lancamento_salvo">Lançamento salvo</string>
+    <string name="lancamento_excluido">Lançamento excluído</string>
+    <string name="selecionar_data">Selecionar data</string>
+
+    <string name="titulo_extrato">Extrato</string>
+    <string name="rotulo_saldo_atual">Saldo atual</string>
+    <string name="acao_novo_lancamento">Novo lançamento</string>
+    <string name="extrato_vazio">Nenhum lançamento ainda</string>
+    <string name="formato_valor_lista">%1$s %2$s</string>
+    <string name="descricao_fab_novo">Adicionar lançamento</string>
+</resources>
