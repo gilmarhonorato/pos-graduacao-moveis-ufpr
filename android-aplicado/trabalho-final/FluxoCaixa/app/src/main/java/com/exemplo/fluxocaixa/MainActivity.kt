@@ -122,8 +122,7 @@ class MainActivity : AppCompatActivity() {
     private fun limparFormulario() {
         campoValor.text = null
         campoDescricao.text = null
-        radioReceita.isChecked = true
-        radioDespesa.isChecked = false
+        radioDespesa.isChecked = true
         calendarioSelecionado.timeInMillis = System.currentTimeMillis()
         campoData.setText(formatoData.format(calendarioSelecionado.time))
     }

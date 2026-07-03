@@ -38,14 +38,15 @@
                 android:id="@+id/radioDespesa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:checked="true"
                 android:text="@string/opcao_despesa" />
 
             <RadioButton
                 android:id="@+id/radioReceita"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true"
+                android:layout_marginStart="16dp"
+
                 android:text="@string/opcao_receita" />
         </RadioGroup>
 
